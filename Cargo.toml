@@ -1,0 +1,16 @@
+[package]
+name = "sip-codec"
+description = "tokio_codec for Session Initiation Protocol (SIP)"
+repository = "https://github.com/lights0123/sip-codec"
+version = "0.1.0"
+authors = ["lights0123 <developer@lights0123.com>"]
+edition = "2018"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+tokio-codec = "0.1.1"
+nom = "4.2.3"
+bytes = "0.4.12"
+http = "0.1.17"
+failure = "0.1.5"
+itertools = "0.8.0"
